@@ -1,6 +1,5 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import StartPage from "./StartPage";
 import Header from "../Headers/Header";
 
 function Home() {

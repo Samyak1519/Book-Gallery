@@ -1,7 +1,6 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
-import Form from "react-bootstrap/Form";
-import { FormControl, FormGroup, FormLabel } from "react-bootstrap";
 
 function StartPage() {
   const navigate = useNavigate();
@@ -28,37 +27,39 @@ function StartPage() {
             </p>
           </h1>
 
-          <div
-            style={{
-              marginTop: "80px",
-              height: "300px",
-              width: "50%",
-              padding: "20px",
-              color: "whitesmoke",
-            }}
-          >
-            Enter your name to start
-            <input
-              type="text"
-              className="form-control"
+          <Container>
+            <div
               style={{
-                height: "27px",
-                width: "90%",
-                marginLeft: "5%",
-                marginTop: "20px",
-              }}
-            />
-            <button
-              onClick={goToHome}
-              className="btn btn-success"
-              style={{
-                marginTop: "10px",
-                boxShadow: "2px 2px 5px rgb(122, 117, 101)",
+                marginTop: "80px",
+                height: "300px",
+                width: "50%",
+                padding: "20px",
+                color: "whitesmoke",
               }}
             >
-              Start (Go to Home)
-            </button>
-          </div>
+              Enter your name to start
+              <input
+                type="text"
+                className="form-control"
+                style={{
+                  height: "27px",
+                  width: "100%",
+                  marginLeft: "5%",
+                  marginTop: "20px",
+                }}
+              />
+              <button
+                onClick={goToHome}
+                className="btn btn-success"
+                style={{
+                  marginTop: "10px",
+                  boxShadow: "2px 2px 5px rgb(122, 117, 101)",
+                }}
+              >
+                Enter to the gallery
+              </button>
+            </div>
+          </Container>
         </header>
       </div>
     </>

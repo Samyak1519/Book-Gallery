@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./HeadStyle.css";
 
 function Head() {
@@ -8,12 +7,7 @@ function Head() {
       <div>
         <header className="headerShadow">
           <h1>Book Gallery</h1>
-          <nav style={{ color: "black" }}>
-            <Link href="#">Home</Link>
-            <Link href="#">Add Books</Link>
-            <Link href="#">All Books</Link>
-            <Link href="#">Start Page</Link>
-          </nav>
+          <h4>Hello, User.</h4>
         </header>
       </div>
     </>
