@@ -1,0 +1,28 @@
+header {
+    /* border: solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0 5%;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header nav {
+    /* border: solid; */
+    display: flex;
+    gap: 20px;
+}
+
+header nav {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    
+    color: black;
+}
