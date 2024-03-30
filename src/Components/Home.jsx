@@ -16,9 +16,6 @@ function Home() {
       <button onClick={startpage}>Go to Start page</button>
       <hr />
       <AllBooks />
-      {/* <center>
-        
-      </center> */}
     </>
   );
 }
