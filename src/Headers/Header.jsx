@@ -3,7 +3,7 @@ import "./HeadStyle.css";
 import { MyContext } from "../App";
 function Head() {
   const inputValue = sessionStorage.getItem("inputValue");
-  const { contextValue, setContextValue } = useContext(MyContext);
+  // const { contextValue, setContextValue } = useContext(MyContext);
 
   return (
     <>
@@ -12,10 +12,11 @@ function Head() {
           <h1>Book Gallery</h1>
           <h3>
             Hello,
-            <h5 
+            <h5
             // style={{  }}
             >
-              {contextValue}
+              User
+              {/* {contextValue} */}
             </h5>
           </h3>
         </header>

@@ -5,7 +5,7 @@ import { MyContext } from "../App";
 
 function StartPage() {
   const navigate = useNavigate();
-  const { contextValue, setContextValue } = useContext(MyContext);
+  // const { contextValue, setContextValue } = useContext(MyContext);
 
   const goToHome = (e) => {
     navigate("/Home");
@@ -54,9 +54,9 @@ function StartPage() {
               >
                 <input
                   type="text"
-                  onChange={(e) => {
-                    setContextValue(e.target.value);
-                  }}
+                  //  onChange={(e) => {
+                  //   setContextValue(e.target.value);
+                  // }}
                   placeholder="Enter your Good Name"
                   className="form-control"
                   style={{
