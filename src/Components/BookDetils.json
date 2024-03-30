@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "image": "",
+    "title": "Harry Potter and the Cursed Child",
+    "author": "Jack Thorne",
+    "ratings": "4"
+  },
+  {
+    "id": 2,
+    "image": "",
+    "title": "The Monk who sold his Ferrari",
+    "author": "Robin Sharma",
+    "ratings": "3"
+  },
+  {
+    "id": 3,
+    "image": "",
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "ratings": "2"
+  },
+  {
+    "id": 4,
+    "image": "",
+    "title": "Heart of Darkness",
+    "author": "Joseph Conrad",
+    "ratings": "4"
+  },
+  {
+    "id": 5,
+    "image": "",
+    "title": "A Passage to India",
+    "author": "E.M. Forster",
+    "ratings": "3.7"
+  },
+  {
+    "id": 6,
+    "image": "",
+    "title": "Wolf Hall",
+    "author": "Hilary Mantel",
+    "ratings": "4.5"
+  },
+  {
+    "id": 7,
+    "image": "",
+    "title": "SecondHand Time",
+    "author": "Svetlana Alexievich",
+    "ratings": "5"
+  },
+  {
+    "id": 8,
+    "image": "",
+    "title": "Never Let Me Go",
+    "author": "Kazuo Ishiguro",
+    "ratings": "5"
+  },
+  {
+    "id": 9,
+    "image": "",
+    "title": "Autum",
+    "author": "Ali Smith",
+    "ratings": "2"
+  },
+  {
+    "id": 10,
+    "image": "",
+    "title": "Half of a Yellow Sun",
+    "author": "Chimamanda Ngozi Adichie",
+    "ratings": "3"
+  }
+]
