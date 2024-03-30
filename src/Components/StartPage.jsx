@@ -58,7 +58,6 @@ function StartPage() {
                     setContextValue(e.target.value);
                   }}
                   placeholder="Enter your Good Name"
-                  
                   className="form-control"
                   style={{
                     width: "100%",
