@@ -27,8 +27,11 @@ function StartPage() {
             </p>
           </h1>
 
-          <Container>
+          <Container style={{ textAlign: "center"
+          // , border: "1px white solid"
+           }}>
             <div
+              className="container"
               style={{
                 marginTop: "80px",
                 height: "300px",
@@ -38,26 +41,31 @@ function StartPage() {
               }}
             >
               Enter your name to start
-              <input
-                type="text"
-                className="form-control"
+              <Container
                 style={{
-                  height: "27px",
-                  width: "100%",
-                  marginLeft: "5%",
-                  marginTop: "20px",
-                }}
-              />
-              <button
-                onClick={goToHome}
-                className="btn btn-success"
-                style={{
-                  marginTop: "10px",
-                  boxShadow: "2px 2px 5px rgb(122, 117, 101)",
+                  padding: "12%",
                 }}
               >
-                Enter to the gallery
-              </button>
+                <input
+                  type="text"
+                  className="form-control"
+                  style={{
+                    width: "100%",
+                  }}
+                />
+                <button
+                  onClick={goToHome}
+                  className="btn btn-success"
+                  style={{
+                    marginTop: "5%",
+                    display: "block",
+                    width: "100%",
+                    boxShadow: "2px 2px 5px rgb(122, 117, 101)",
+                  }}
+                >
+                  Enter to the gallery
+                </button>
+              </Container>
             </div>
           </Container>
         </header>

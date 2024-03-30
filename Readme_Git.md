@@ -8,7 +8,8 @@ git remote add origin https://github.com/Samyak1519/Book-Gallery.git
 git push -u origin main
 
 ## Update
-
-git remote add origin https://github.com/Samyak1519/Book-Gallery.git
+git init
+git add .
+git commit -m "message"
 git branch -M main
 git push -u origin main
