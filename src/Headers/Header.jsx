@@ -1,13 +1,23 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./HeadStyle.css";
-
+import { MyContext } from "../App";
 function Head() {
+  const inputValue = sessionStorage.getItem("inputValue");
+  const { contextValue, setContextValue } = useContext(MyContext);
+
   return (
     <>
       <div>
         <header className="headerShadow">
           <h1>Book Gallery</h1>
-          <h4>Hello, User.</h4>
+          <h3>
+            Hello,
+            <h5 
+            // style={{  }}
+            >
+              {contextValue}
+            </h5>
+          </h3>
         </header>
       </div>
     </>

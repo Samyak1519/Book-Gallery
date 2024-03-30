@@ -1,40 +1,39 @@
-.App {
-  text-align: center;
-}
+ .App-header {
+   background-color: #282c34;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-size: calc(10px + 2vmin);
+   color: white;
+ }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+ .App-link {
+   color: #61dafb;
+ }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+ .bg {
+   /* Ensure the background covers the entire viewport */
+   height: 100%;
+   overflow: hidden;
+   /* Hide overflow to prevent scrolling of background */
 
-.App-link {
-  color: #61dafb;
-}
+   /* Add other background styles if needed */
+   position: relative;
+   /* Position relative for positioning content */
+ }
 
-.background {
-  background-image: url('../public/stackOfBooks.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+ .background {
+   background-image: url('../public/stackOfBooks.jpg');
+   background-size: cover;
+   background-attachment: fixed;
+   position: fixed;
+   /* background-repeat: no-repeat; */
+   height: 100vh;
+   width: 100vw;
+   margin: 0;
+   padding: 0;
+   z-index: -1;
 
-  height: 100vh;
-  /* Set the height of the container to 100% of the viewport height */
-  width: 100vw;
-  /* Set the width of the container to 100% of the viewport width */
-  margin: 0;
-  /* Remove any default margin */
-  padding: 0;
-  /* Remove any default padding */
-}
+ }

@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import Header from "../Headers/Header";
+import AllBooks from "./AllBooks";
 
 function Home() {
   const navigate = useNavigate();
@@ -12,11 +13,12 @@ function Home() {
   return (
     <>
       <Header />
-      <center>
-        <h1>Homepage</h1>
-        <button onClick={startpage}>Go to Start page</button>
-        <hr />
-      </center>
+      <button onClick={startpage}>Go to Start page</button>
+      <hr />
+      <AllBooks />
+      {/* <center>
+        
+      </center> */}
     </>
   );
 }

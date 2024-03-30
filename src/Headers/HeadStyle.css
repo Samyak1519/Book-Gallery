@@ -26,21 +26,24 @@ header h1 {
     font-family: 'Courier New', Courier, monospace;
 }
 
-header h4 {
+header h3 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
-    font-size: larger;
+    font-size: 23px;
     font-weight: bold;
     margin-top: 5px;
 
 }
 
-/* header nav { 
-    border: solid; 
-    display: flex; 
-    gap: 17px;
-}*/
+header h3 h5 {
 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(1, 139, 1);
+    margin-left: 3px;
+}
 
 header nav {
     text-decoration: none;

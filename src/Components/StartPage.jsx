@@ -1,13 +1,16 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Container } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
+import { MyContext } from "../App";
 
 function StartPage() {
   const navigate = useNavigate();
+  const { contextValue, setContextValue } = useContext(MyContext);
 
-  const goToHome = () => {
+  const goToHome = (e) => {
     navigate("/Home");
   };
+
   return (
     <>
       <div className="App">
@@ -27,9 +30,12 @@ function StartPage() {
             </p>
           </h1>
 
-          <Container style={{ textAlign: "center"
-          // , border: "1px white solid"
-           }}>
+          <Container
+            style={{
+              textAlign: "center",
+              // , border: "1px white solid"
+            }}
+          >
             <div
               className="container"
               style={{
@@ -48,6 +54,11 @@ function StartPage() {
               >
                 <input
                   type="text"
+                  onChange={(e) => {
+                    setContextValue(e.target.value);
+                  }}
+                  placeholder="Enter your Good Name"
+                  
                   className="form-control"
                   style={{
                     width: "100%",
@@ -73,5 +84,4 @@ function StartPage() {
     </>
   );
 }
-
 export default StartPage;
