@@ -12,10 +12,12 @@ function Home() {
 
   return (
     <>
-      <h1>Homepage</h1>
-      <button onClick={startpage}>Go to Start page</button>
-      <hr />
       <Header />
+      <center>
+        <h1>Homepage</h1>
+        <button onClick={startpage}>Go to Start page</button>
+        <hr />
+      </center>
     </>
   );
 }

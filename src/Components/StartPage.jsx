@@ -22,10 +22,21 @@ function StartPage() {
               textAlign: "center",
             }}
           >
-            Welcome to Book Gallery
+            Welcome to
+            <p style={{ fontFamily: "'Courier New', Courier, monospace" }}>
+              Book Gallery
+            </p>
           </h1>
 
-          <div style={{ marginTop: "80px" }}>
+          <div
+            style={{
+              marginTop: "80px",
+              height: "300px",
+              width: "50%",
+              padding: "20px",
+              color: "whitesmoke",
+            }}
+          >
             Enter your name to start
             <input
               type="text"

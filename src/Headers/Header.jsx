@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Style.css";
+import "./HeadStyle.css";
 
 function Head() {
   return (
     <>
       <div>
-        <header>
+        <header className="headerShadow">
           <h1>Book Gallery</h1>
           <nav style={{ color: "black" }}>
             <Link href="#">Home</Link>
