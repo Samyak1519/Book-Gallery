@@ -2,7 +2,7 @@ import React from "react";
 function Footer() {
   return (
     <>
-      <div></div>
+      <div style={{ textAlign: "center" }}>Book Studio | 2024</div>
     </>
   );
 }
