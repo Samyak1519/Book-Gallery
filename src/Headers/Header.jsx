@@ -15,7 +15,7 @@ function Head() {
           <h1 onClick={goToHome}>Book Gallery</h1>
           <h3>
             Hello,
-            <h5>Samyak ;)</h5>
+            <h5> ;)</h5>
           </h3>
         </header>
       </div>

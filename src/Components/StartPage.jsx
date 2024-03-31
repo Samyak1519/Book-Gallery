@@ -1,13 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 
 function StartPage() {
   const navigate = useNavigate();
 
-  const goToHome = (e) => {
+  const [inputData, setInputData] = useState({ name: "" });
+
+  const goToHome = () => {
     navigate("/Home");
   };
+
+  function changeHandle(e) {
+    setInputData({ ...inputData, 
+      [e.target.name]: e.target.value });
+  }
 
   return (
     <>
@@ -52,6 +59,9 @@ function StartPage() {
               >
                 <input
                   type="text"
+                  name="name"
+                  value={inputData.name}
+                  onChange={changeHandle}
                   placeholder="Enter your Good Name"
                   className="form-control"
                   style={{
