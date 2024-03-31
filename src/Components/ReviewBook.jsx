@@ -2,6 +2,7 @@ import { Container, Grid, Rating, TextField, Typography } from "@mui/material";
 import React, { useState } from "react";
 import { Button, Image } from "react-bootstrap";
 import Head from "../Headers/Header";
+import Footer from "../Headers/Footer";
 
 function ReviewBook() {
   const [book, setBook] = useState({
@@ -28,16 +29,43 @@ function ReviewBook() {
             height: "30%",
             width: "100%",
             borderRadius: "10px",
-            padding: "3%",
+
+            boxShadow: "10px 10px 1px 1px rgba(100, 100, 100, 0.2)",
           }}
         >
-          <div key={book.id}>
-            <Grid container spacing={3} style={{ textAlign: "left" }}>
+          <div
+            key={book.id}
+            className="container"
+            style={{
+              padding: "3%",
+              paddingTop: "1%",
+              textAlign: "center",
+              // border: "2px solid black",
+            }}
+          >
+            <h3
+              style={{
+                marginTop: "2%",
+                fontSize: "35px",
+                fontWeight: "normal",
+              }}
+            >
+              Review Book
+            </h3>
+            <Grid
+              container
+              style={{
+                marginTop: "2%",
+                textAlign: "left",
+                // border: "3px dotted black",
+              }}
+            >
               <Grid
                 xs={4}
                 style={{
+                  // border: "1px solid black",
                   textAlign: "center",
-                  padding: "10px",
+                  padding: "5px",
                   alignItems: "center",
                 }}
               >
@@ -55,8 +83,13 @@ function ReviewBook() {
                 <hr style={{ width: "100%" }} />
               </Grid>
 
-              <Grid xs={8} style={{ paddingLeft: "10px" }}>
-                <h4>Review Book</h4>
+              <Grid
+                xs={8}
+                style={{
+                  padding: "5px",
+                  // border: "1px solid black"
+                }}
+              >
                 <hr style={{ width: "100%" }} />
                 <div className="container" style={{ paddingLeft: "5%" }}>
                   <TextField
@@ -65,7 +98,7 @@ function ReviewBook() {
                     placeholder="Write your comment."
                     multiline
                     variant="standard"
-                    style={{ width: "60%" }}
+                    style={{ width: "70%" }}
                   />
                   <br />
                   <br />
@@ -76,7 +109,7 @@ function ReviewBook() {
                     multiline
                     variant="standard"
                     rows={2}
-                    style={{ width: "60%" }}
+                    style={{ width: "70%" }}
                   />
                   <br />
                   <br />
@@ -112,6 +145,7 @@ function ReviewBook() {
           </div>
         </Container>
       </div>
+      <Footer />
     </>
   );
 }

@@ -4,6 +4,7 @@
     "image": "",
     "title": "Harry Potter and the Cursed Child",
     "author": "Jack Thorne",
+    "description": "“Harry Potter and the Cursed Child” is about the journey Albus takes while growing up, and the roles he and his best friend, Scorpius (Draco Malfoy's son), play when dark forces, perhaps in league with Voldemort, once again threaten the fate of the planet.",
     "ratings": "4"
   },
   {
@@ -11,6 +12,7 @@
     "image": "",
     "title": "The Monk who sold his Ferrari",
     "author": "Robin Sharma",
+    "description": "The Monk Who Sold His Ferrari tells the extraordinary story of Julian Mantle, a lawyer forced to confront the spiritual crisis of his out-of-balance life, and the subsequent wisdom that he gains on a life-changing odyssey that enables him to create a life of passion, purpose and peace.",
     "ratings": "3"
   },
   {
@@ -18,20 +20,23 @@
     "image": "",
     "title": "To Kill a Mockingbird",
     "author": "Harper Lee",
-    "ratings": "2"
+    "description": "To Kill a Mockingbird is a 1961 novel by Harper Lee. Set in small-town Alabama, the novel is a bildungsroman, or coming-of-age story, and chronicles the childhood of Scout and Jem Finch as their father Atticus defends a Black man falsely accused of rape. Scout and Jem are mocked by classmates for this.",
+    "ratings": "5"
   },
   {
     "id": 4,
     "image": "",
     "title": "Heart of Darkness",
     "author": "Joseph Conrad",
-    "ratings": "4"
+    "description": "The story of 'Heart of Darkness'  is about Marlow, an English merchant sailor, working for a Belgian company in the Congo. Marlow must find Kurtz, a man who has seemingly gone rogue. His experience in the Congo, however, changes his perception of Europe.",
+    "ratings": "3"
   },
   {
     "id": 5,
     "image": "",
     "title": "A Passage to India",
     "author": "E.M. Forster",
+    "description": "The novel explores the complex relationships between the British colonizers and the Indian people, focusing on the experiences of Dr. Aziz, a young Indian Muslim physician, and his interactions with English visitors, particularly Mrs. Moore and Adela Quested.",
     "ratings": "3.7"
   },
   {
@@ -39,6 +44,7 @@
     "image": "",
     "title": "Wolf Hall",
     "author": "Hilary Mantel",
+    "description": "Wolf Hall is a historical fiction novel written by Hilary Mantel and published in 2009. It is set in England from 1500 to 1535 and tells the story of Thomas Cromwell's rise to power during the reign of King Henry VIII.",
     "ratings": "4.5"
   },
   {
@@ -46,6 +52,7 @@
     "image": "",
     "title": "SecondHand Time",
     "author": "Svetlana Alexievich",
+    "description": "The book is a collection of interviews with people across the former Soviet Union regarding the collapse of the Soviet Union. The book was written in 2013, and it was written by Belarusian Nobel laureate Svetlana Alexievich.",
     "ratings": "5"
   },
   {
@@ -53,20 +60,23 @@
     "image": "",
     "title": "Never Let Me Go",
     "author": "Kazuo Ishiguro",
+    "description": "Never Let Me Go takes place in a dystopian version of late 1990s England, where the lives of ordinary citizens are prolonged through a state-sanctioned program of human cloning. The clones, referred to as students, grow up in special institutions away from the outside world.",
     "ratings": "5"
   },
   {
     "id": 9,
     "image": "",
-    "title": "Autum",
+    "title": "Autumn",
     "author": "Ali Smith",
-    "ratings": "2"
+    "description": "Autumn is a novel by Ali Smith that explores the friendship between two people, Daniel Gluck and Elisabeth Demand. Daniel is a 100-year-old man who has lived through many historical events, including the rise of fascism in Europe in the 1930s. Elisabeth is a 32-year-old woman who is struggling to find her place in the world. The two characters meet by chance and form a deep bond. Through their friendship, they learn to see the world in new ways and to appreciate the beauty of life.",
+    "ratings": "3"
   },
   {
     "id": 10,
     "image": "",
     "title": "Half of a Yellow Sun",
     "author": "Chimamanda Ngozi Adichie",
+    "description": "Half of a Yellow Sun opens with Ugwu's evolution from a village boy to a member of the educated elite. Odenigbo hires Ugwu as a servant and encourages the boy to pursue social mobility through education. As Ugwu becomes educated, he begins to admire the Nigerian intelligentsia. Churchill befriends Odenigbo.",
     "ratings": "3"
   }
 ]

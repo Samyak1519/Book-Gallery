@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./HeadStyle.css";
+
 function Head() {
   const navigate = useNavigate();
 

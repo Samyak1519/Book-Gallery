@@ -23,7 +23,10 @@ function AllBooks() {
         {bookData.map((book) => (
           <Card
             key={book.id}
-            style={{ width: "20rem" }}
+            style={{
+              width: "20rem",
+              boxShadow: "10px 10px 1px 1px rgba(100, 100, 100, 0.2)",
+            }}
             onClick={() => {
               goToBookDetailsPage(book.id);
             }}

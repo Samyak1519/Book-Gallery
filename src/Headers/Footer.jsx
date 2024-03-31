@@ -1,8 +1,9 @@
+import "./HeadStyle.css";
 import React from "react";
 function Footer() {
   return (
     <>
-      <div style={{ textAlign: "center" }}>Book Studio | 2024</div>
+      <footer className="footerShadow">© Book Gallery | 2024</footer>
     </>
   );
 }
